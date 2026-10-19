@@ -13,7 +13,7 @@ Architecture notes: [`docs/Architecture.md`](docs/Architecture.md).
 
 ```bash
 python -m pip install -r requirements.txt
-bash scripts/run_demo.sh   # ~30 s: Q1, Q2, Q3 live, then pytest -v
+bash scripts/run_demo.sh   # ~30 s: Q1, Q2, Q3 live, then pytest -v  (run_demo.bat from cmd)
 python -m pytest -q        # offline tests (deterministic)
 LIVE=1 python -m pytest -q # adds tests that hit mdcomputers.in, Rfam and GitHub
 ```
